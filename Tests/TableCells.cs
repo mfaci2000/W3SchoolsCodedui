@@ -20,8 +20,25 @@ namespace Tests
     [CodedUITest]
     public class TableCells
     {
+        //// C:\qwalisoft\DataSources\Data.csv
+        //// "|DataDirectory|\\data.csv"
+        //[DataSource("Microsoft.VisualStudio.TestTools.DataSource.CSV", @"C:\Users\mf_acer\Documents\SrcGithub\W3SchoolsCodedui\DataSources\DataSrc.csv", "DataSrc#csv", DataAccessMethod.Sequential), DeploymentItem("DataSrc.csv"), TestMethod]
+        //public void ReadDataFromCsvFile()
+        //{
+        //    string currentValueByName;
+        //    string currentValueByIndex;
+        //    int rowCount = TestContext.DataRow.Table.Rows.Count;
+        //    for (int i = 0; i < rowCount; i++)
+        //    {
+        //        currentValueByName = TestContext.DataRow.Table.Rows[i].ToString();
+        //    }
+ 
+        //    string nameToVerifyInTableCell = TestContext.DataRow["Name"].ToString();
+        //    //string nameToVerifyInTableCell = TestContext.DataRow[2].ToString();
+        //}
 
         // private string valueToVerify = "CANADA";
+
         public TableCells()
         {
            

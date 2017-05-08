@@ -9,6 +9,10 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Tests", "Tests\Tests.csproj
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DataSources", "DataSources\DataSources.csproj", "{7A590F58-49E8-4BB1-A764-64E543215211}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "StateTransitionTable", "StateTransitionTable\StateTransitionTable.csproj", "{015E72C9-1BFA-4755-87E0-04115ECCE56B}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PageGenerationParser", "PageGenerationParser\PageGenerationParser.csproj", "{CD39413D-6685-45D1-9420-F33AD691A464}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -27,6 +31,14 @@ Global
 		{7A590F58-49E8-4BB1-A764-64E543215211}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{7A590F58-49E8-4BB1-A764-64E543215211}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{7A590F58-49E8-4BB1-A764-64E543215211}.Release|Any CPU.Build.0 = Release|Any CPU
+		{015E72C9-1BFA-4755-87E0-04115ECCE56B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{015E72C9-1BFA-4755-87E0-04115ECCE56B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{015E72C9-1BFA-4755-87E0-04115ECCE56B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{015E72C9-1BFA-4755-87E0-04115ECCE56B}.Release|Any CPU.Build.0 = Release|Any CPU
+		{CD39413D-6685-45D1-9420-F33AD691A464}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{CD39413D-6685-45D1-9420-F33AD691A464}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{CD39413D-6685-45D1-9420-F33AD691A464}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{CD39413D-6685-45D1-9420-F33AD691A464}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
